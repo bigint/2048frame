@@ -1,2 +1,2 @@
 # 2048frame
-Play 2048 in a Farcaster Frame
+Play 2048 in a Hey Portal

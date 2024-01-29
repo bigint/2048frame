@@ -215,14 +215,18 @@ $boardString = implode(',',$boardArray);
 	<head>
 		<title>Playing 2048</title>
 		<meta property="og:title" content="Playing 2048" />
-		<meta property='og:image' content="https://homerow.club/2048/i.php?b=<?=$boardString?>" />
-		<meta property="fc:frame" content="vNext" />
-		<meta property="fc:frame:image" content="https://homerow.club/2048/i.php?b=<?=$boardString?>" />
-		<meta property="fc:frame:button:1" content="⬆️" />
-		<meta property="fc:frame:button:2" content="➡️" />
-		<meta property="fc:frame:button:3" content="⬇️" />
-		<meta property="fc:frame:button:4" content="⬅️" />
-		<meta property="fc:frame:post_url" content="https://homerow.club/2048/play.php?b=<?=$boardString?>" />
+		<meta property='og:image' content="https://portals2048.up.railway.app/i.php?b=<?=$boardString?>" />
+		<meta property="hey:portal" content="vLatest" />
+		<meta property="hey:portal:image" content="https://portals2048.up.railway.app/i.php?b=<?=$boardString?>" />
+		<meta property="hey:portal:button:1" content="⬆️" />
+		<meta property="hey:portal:button:1:type" content="submit" />
+		<meta property="hey:portal:button:2" content="➡️" />
+		<meta property="hey:portal:button:2:type" content="submit" />
+		<meta property="hey:portal:button:3" content="⬇️" />
+		<meta property="hey:portal:button:3:type" content="submit" />
+		<meta property="hey:portal:button:4" content="⬅️" />
+		<meta property="hey:portal:button:4:type" content="submit" />
+		<meta property="hey:portal:post_url" content="https://portals2048.up.railway.app/play.php?b=<?=$boardString?>" />
 		<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
       <style type="text/css">
         body { 
@@ -248,7 +252,7 @@ $boardString = implode(',',$boardArray);
 	<body>
 		<div id="page">
       <h1>2048 Frame</h1>
-      <p>Fully playable 2048 in a Farcaster Frame</p>
+      <p>Fully playable 2048 in a Hey Portal</p>
       <p>Want to see the code? Go to: <a href="https://github.com/Montoya/2048frame/">github.com/Montoya/2048frame/</a></p>
       <p>It's open source (MIT License), feel free to use it for your own projects.</p>
     </div>

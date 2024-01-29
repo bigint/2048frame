@@ -67,7 +67,7 @@ for ($i = 0; $i < $boardSize; $i++) {
 }
 
 // Draw the title 
-$fontColor = imagecolorallocate($image, 132, 101, 203);
+$fontColor = imagecolorallocate($image, 251, 58, 93);
 $font = 'Rubik-Black'; // Change the font path as needed
 imagettftext($image, 24, 0, 309, 36, $fontColor, $font, '2048 Game');
 
